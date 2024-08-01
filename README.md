@@ -15,10 +15,10 @@ Let's say we want to symlink the tmux related configuration file.
 
 Execute:
 ```
-stow --target $HOME tmux 
+stow --target $HOME tmux # tmux refers to the name of directory for storing tmux related config files. 
 ```
 
-This will setup the following files in the $HOME directory symlinked to the configuration files in this repo.
+This will setup the following files in the $HOME directory symlinked to the config files in this repo.
 ```
 .tmux.conf -> Documents/repos/dotfiles-v2/tmux/.tmux.conf
 .tmux.reset.conf -> Documents/repos/dotfiles-v2/tmux/.tmux.reset.conf
